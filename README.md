@@ -29,5 +29,59 @@ Feel free to make a pull request, if you are interested in helping or you have s
         - Chaining with Linked List: it is the most common way in which we make a hashtable of items with having an array which maps to linkedlists. The keys and values are stored in Linked Lists. Time complexity of access is O(n) in worst case.
         - Chaining with Binary Search Tree: The collisions are stored in a binary search tree. The method is not that common but provides time complexity of O(logn).
         - Open Addressing with Linear Probing: while saving the key value in the hash map, if a collision occurs, increament the index and move to the next index till we find the next open spot. If the number of collisions is low, this method can be very fast and space efficient.
+        - Quadratic Probing: Like the approach above but instead of linear seach for next open spot, do a quadratic search for the next open spot. Another possible approach is to do a double hash function as well.
         
+   ## Linked Lists
+     - No constant time Access (unlike arrays).
+     - Add or removing to the begining of the Linked List is constant. 
+     
+     ```
+     Class Node {
+     int data; 
+     Node next; 
+     public Node (int data) {
+     this.data= data;
+      }
+     }
+     ```
+        
+    ## Stack
     
+     - The order in stack is LIFO (Last in First out).
+     - The adds and removes can be done in constant time.
+     - No constant time access.
+     - 4 available functions: pop(), push(), peek() and isEmpty();
+     - Stacks can be implemented by linked lists.
+     
+     ```
+     public class stackNode <int> {
+      
+      int data; 
+      stackNode next; 
+      public stackNode (int d) {
+       this.data= d; 
+       }
+     }
+     ```
+   ## Queue
+   
+     - The order in Queue is FIFO (First in First out).
+     - The adds and removes can be done in constant time.
+     - It is used in Breadth First Search.
+     - 4 available functions:  add(), remove(), peek() and isEmpty();
+     - Queues can be implemented by linked lists.
+   
+   
+   ```
+   public class MyQueue {
+    
+    public class QueueNode {
+     
+     int data;
+     QueueNode next; 
+     public QueueNode (int d) {
+      this.data=d;
+       }
+     }
+    }
+   ```
