@@ -35,6 +35,8 @@ Feel free to make a pull request, if you are interested in helping or you have s
      - No constant time Access (unlike arrays).
      - Add or removing to the begining of the Linked List is constant. 
      
+     
+     
      ```
      Class Node {
      int data; 
@@ -53,6 +55,8 @@ Feel free to make a pull request, if you are interested in helping or you have s
      - 4 available functions: pop(), push(), peek() and isEmpty();
      - Stacks can be implemented by linked lists.
      
+     
+     
      ```
      public class stackNode <int> {
       
@@ -70,6 +74,7 @@ Feel free to make a pull request, if you are interested in helping or you have s
      - It is used in Breadth First Search.
      - 4 available functions:  add(), remove(), peek() and isEmpty();
      - Queues can be implemented by linked lists.
+   
    
    
    ```
