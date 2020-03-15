@@ -90,3 +90,23 @@ Feel free to make a pull request, if you are interested in helping or you have s
      }
     }
    ```
+   
+   ## Trees
+   
+   - Tree is a type of connected graph with no cycle.
+   - Tree has a root node.
+   
+   ```
+   class TreeNode{
+    int data; 
+    TreeNode[] children;
+    }
+   ```
+   ### Different Types of Trees:
+   
+   - Binary Tree: A tree that has up to 2 children.
+   - Binary Search Tree: A binary tree with the condition: Value of all left descendents <= Value of root < Value of all right descendents.
+   - Balanced Tree: insertion and find time complexity: O(logn) where n is the number of nodes in the tree.
+   - Complete Binary Tree: A binary tree in which every level of tree is fully filled except the last level.
+   - Full Binary Tree: A binary tree in which every node has either zero or two children.
+   - Perfect Binary Tree: A tree which is full and complete. mthe number of nodes in the level of k in a perfect binary tree is 2^k-1 nodes.
