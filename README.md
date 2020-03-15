@@ -9,7 +9,7 @@ Feel free to make a pull request, if you are interested in helping or you have s
 
  ## Arrays & Strings
  
- - Array has a fixed size in Java.
+ - The array has a fixed size in Java.
  - ArrayLists have dynamic resizing feature. When the Array is full, it doubles the size.
  - Copying a string is an expensive operation, an alternative can be using String Builder.
  - String Builder is a resizable array of Strings. String Builder can be converted to a String when it is needed.
@@ -17,7 +17,7 @@ Feel free to make a pull request, if you are interested in helping or you have s
  ## Hash Table
  
  - It is a map of keys to values.
- - How it can be implemented?  Using an array of linked list and a hash function.
+ - How it can be implemented?  Using an array of linked lists and a hash function.
  - How does it work? 
     - The hashcode of the key is computed using a hash function.
     - The result will be mapped to an index in the array. e.g. (key % ArrayLength).
