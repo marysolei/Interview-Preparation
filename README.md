@@ -116,12 +116,12 @@ Feel free to make a pull request, if you are interested in helping or you have s
    
    - Graphs can be directed or undirected.
    - Connected Graph: if we have a path between every pair of vertices.
-   - Acyclic Graph: a graph without cycle.
+   - Acyclic Graph: a graph without a cycle.
    
    There are two ways of representing a graph a) Adjacency List b) Adjacency Matrix
    
    ```
-   //Representing a graph in form of a adjacency list
+   //Representing a graph in the form of an adjacency list
    
    class Node {
      int data;
@@ -137,11 +137,11 @@ Feel free to make a pull request, if you are interested in helping or you have s
    
  There are two types of graph searches: **a)** Breadth Frist Search (BFS) **b)** Depth First Search (DFS).
   
-  **DFS:** In this search we start at root and explore each branch completely before moving to the next branch. So we go deep and then we go wide. 
+  **DFS:** In this search, we start at the root and explore each branch completely before moving to the next branch. So we go deep and then we go wide. 
   
-   **BFS:** We start at root and explore each neighbor and then we go to the next step. So we go wide and then we go deep.
+   **BFS:** We start at the root and explore each neighbor and then we go to the next step. So we go wide and then we go deep.
     
  **Bidirectional Search:** In this type of graph search we run two BFSs from the source node to the destination node. When these two searches collide then there is a path.
     The bidirectional search is faster than a single BFS, why? 
-    Imagine we start at node S and the destination is node D. The distance between these two nodes is t nodes, and each node has at most k neighbors. Using a BFS, for each step we have k nodes, if we have t steps we have k^t nodes. Using a bidirectional search the distance from each node will be t/2 so the total steps will be 2*(k^(t/2)), so the time complexity is O(k^(t/2) which is faster than the BFS method with complexity of O(k^t).
+    Imagine we start at node S and the destination is node D. The distance between these two nodes is t nodes, and each node has at most k neighbors. Using a BFS, for each step we have k nodes if we have t steps we have k^t nodes. Using a bidirectional search the distance from each node will be t/2 so the total steps will be 2*(k^(t/2)), so the time complexity is O(k^(t/2) which is faster than the BFS method with a complexity of O(k^t).
     
