@@ -145,3 +145,24 @@ Feel free to make a pull request, if you are interested in helping or you have s
     The bidirectional search is faster than a single BFS, why? 
     Imagine we start at node S and the destination is node D. The distance between these two nodes is t nodes, and each node has at most k neighbors. Using a BFS, for each step we have k nodes if we have t steps we have k^t nodes. Using a bidirectional search the distance from each node will be t/2 so the total steps will be 2*(k^(t/2)), so the time complexity is O(k^(t/2) which is faster than the BFS method with a complexity of O(k^t).
     
+
+## Heap 
+
+
+Heap is a special case of a balanced binary tree data structure where the root-node key is compared with its children and arranged accordingly. If a has a child node b then key(a)>= key(b).
+
+**MinHeap** where the value of the root node is less than or equal to either of its children.
+
+**MaxHeap** where the value of the root node is greater than or equal to either of its children.
+
+**How to add a node to the heap:**
+
+**Step1:** Create a new node at the end of the heap.
+
+**Step2:** Assign the new value to the node.
+
+**Step3:** Compare the value of this child node with its parent.
+
+**Step4:** If the value of the parent is less than the child then swap them.
+
+**Step5:** Repeat steps 3 & 4 until heap property holds.
