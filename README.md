@@ -166,3 +166,47 @@ Heap is a special case of a balanced binary tree data structure where the root-n
 **Step4:** If the value of the parent is less than the child then swap them.
 
 **Step5:** Repeat steps 3 & 4 until heap property holds.
+
+
+## Sorting 
+
+### Bubble Sort:
+Repeatedly swap adjacent elements.
+
+**Time Complexity:** O(n^2).
+
+**Space Complexity:** O(1) in place.
+
+### Selection Sort:
+Repeatedly finding the min value from the unsorted part and put it at the beginning.
+
+**Time Complexity:** O(n^2).
+
+**Space Complexity:** O(1) in place.
+
+### Insertion Sort:
+It is like when we sort the cards
+
+**Time Complexity:** O(n^2).
+
+**Space Complexity:** O(1) in place.
+
+### Merge Sort:
+Dividing the array into two halves and call the function for each half. In the end, merge two halves.
+
+**Time Complexity:** O(nlogn).
+
+**Space Complexity:** depends
+
+### Quick Sort: 
+Pick an element as pivot and partition array around the pivot.
+
+
+**Time Complexity:** O(nlogn) in the average case and O(n^2) in the worst case. 
+
+**Space Complexity:** depends.
+
+### Radix Sort: 
+Sorting digit by digit starting from the least significant digit. 
+
+**Time Complexity:** O(nk) where n is the total numbers in the array to be sorted and k is the max digits in the number.
