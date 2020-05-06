@@ -1,4 +1,3 @@
-# Leetcode
 
 Solutions to problems on Leetcode, using Golang and JAVA.
 
